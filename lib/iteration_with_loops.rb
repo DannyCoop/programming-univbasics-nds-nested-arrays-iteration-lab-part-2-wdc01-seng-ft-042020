@@ -3,6 +3,7 @@ def find_min_in_nested_arrays(src)
   # Produce a new Array that contains the smallest number of each of the nested arrays
   solution = []
   src.each do |row|
+    puts row.min
     solution.push(row.min)
   end
 end
